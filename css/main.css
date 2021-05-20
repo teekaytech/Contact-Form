@@ -377,3 +377,15 @@ input[type="email"] {
   background-color: #ff6b00;
   color: #fff;
 }
+
+.form-button:hover {
+  color: #ff6b00;
+  background-color: #fff;
+  border: 3px solid #ff6b00;
+}
+
+.form-button:active {
+  background-color: #eee;
+  color: #222;
+  border: none;
+}

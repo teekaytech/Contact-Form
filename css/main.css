@@ -162,7 +162,8 @@ main {
 }
 
 .description,
-.white-description {
+.white-description,
+.form-description {
   font-family: "Inter", sans-serif;
   font-style: normal;
   font-weight: normal;
@@ -324,4 +325,67 @@ li {
 
 .skills {
   list-style: inside url("../media/svg/circle.svg");
+}
+
+/* Contact form style rules */
+.contact-form {
+  display: flex;
+  padding: 120px;
+}
+
+.form {
+  width: 50%;
+  padding: 0 20px;
+}
+
+.form-description {
+  color: #222;
+  font-size: xx-large;
+  font-weight: 900;
+  line-height: 40px;
+}
+
+input[type="text"],
+input[type="email"],
+textarea {
+  display: inline-block;
+  width: 48%;
+  border: none;
+  outline: none;
+  padding: 16px 12px;
+  border-bottom: 1px solid rgb(218, 218, 218);
+  margin: 4px 2px;
+  margin-bottom: 20px;
+}
+
+textarea {
+  width: 100%;
+  background-color: #fff7f2;
+  border-bottom: none;
+}
+
+input[type="email"] {
+  width: 100%;
+}
+
+.form-button {
+  padding: 10px 19px;
+  border: none;
+  outline: none;
+  cursor: pointer;
+  font-weight: bolder;
+  background-color: #ff6b00;
+  color: #fff;
+}
+
+.form-button:hover {
+  color: #ff6b00;
+  background-color: #fff;
+  border: 3px solid #ff6b00;
+}
+
+.form-button:active {
+  background-color: #eee;
+  color: #222;
+  border: none;
 }

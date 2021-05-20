@@ -291,39 +291,52 @@
         </div>
       </div>
     </main>
-    <div>
-      <div>
-        <h4>
+    <div class="contact-form">
+      <div class="form info">
+        <h4 class="form-description">
           I'm always interested in hearing about new projects, so if you'd like
           to chat please get in touch.
         </h4>
       </div>
-      <div>
+      <div class="form form-fields">
         <form action="https://formspree.io/f/mbjqgwwa" method="POST">
-          <input
-            type="text"
-            name="name"
-            id="name"
-            placeholder="Name"
-            required
-          />
-          <input
-            type="email"
-            name="email"
-            id="email"
-            placeholder="Email address"
-            required
-          />
-          <textarea
-            name="message"
-            id="message"
-            cols="30"
-            rows="10"
-            placeholder="Your message here"
-            required
-            maxlength="500"
-          ></textarea>
-          <button type="submit">Get in touch</button>
+          <div>
+            <input
+              type="text"
+              name="firstname"
+              id="firstname"
+              placeholder="First Name"
+              required
+            />
+            <input
+              type="text"
+              name="lastname"
+              id="lastname"
+              placeholder="Last Name"
+              required
+            />
+            <input
+              type="email"
+              name="email"
+              id="email"
+              placeholder="Email address"
+              required
+            />
+          </div>
+          <div>
+            <textarea
+              name="message"
+              id="message"
+              cols="30"
+              rows="6"
+              placeholder="Your message here"
+              required
+              maxlength="500"
+            ></textarea>
+          </div>
+          <div>
+            <button type="submit" class="form-button">Get in touch</button>
+          </div>
         </form>
       </div>
     </div>

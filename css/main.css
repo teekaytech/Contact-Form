@@ -360,6 +360,8 @@ textarea {
 
 textarea {
   width: 100%;
+  background-color: #fff7f2;
+  border-bottom: none;
 }
 
 input[type="email"] {
